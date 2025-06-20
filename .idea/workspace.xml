@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9860f88a-813c-4195-8463-af2cd44ab3f6" name="Changes" comment="Commit 1.1 Загружаем функционал по модулям (дополнение)">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env_template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/operations.xlsx" afterDir="false" />
-    </list>
+    <list default="true" id="9860f88a-813c-4195-8463-af2cd44ab3f6" name="Changes" comment="Commit 1.4 (для удаления)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -43,7 +39,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
@@ -78,7 +74,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750413082513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 1.2 Добавили '.gitignore'">
+      <option name="closed" value="true" />
+      <created>1750413218628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750413218628</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit 1.3 Добавили шаблон '.env_template'">
+      <option name="closed" value="true" />
+      <created>1750413284399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750413284399</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit 1.4 (для удаления)">
+      <option name="closed" value="true" />
+      <created>1750413424330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750413424330</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -87,6 +107,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 1.0 Загружаем функционал по модулям" />
     <MESSAGE value="Commit 1.1 Загружаем функционал по модулям (дополнение)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 1.1 Загружаем функционал по модулям (дополнение)" />
+    <MESSAGE value="Commit 1.2 Добавили '.gitignore'" />
+    <MESSAGE value="Commit 1.3 Добавили шаблон '.env_template'" />
+    <MESSAGE value="Commit 1.4 (для удаления)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1.4 (для удаления)" />
   </component>
 </project>
