@@ -1,20 +1,11 @@
-from utils import load_excel, validate_data
-from services import analyze_transactions
-from reports import save_json, save_excel_report
+from fastapi import FastAPI
+from zoneinfo._common import load_data
 
+from reports.by_weekday import weekday_report
 
-def main():
-    input_file = "data/operations.xlsx"
-    df = load_excel(input_file)
+app = FastAPI()
 
-    if not validate_data(df):
-        print("Ошибка: неверный формат данных!")
-        return
-
-    stats = analyze_transactions(df)
-    save_json(stats, "data/report.json")
-    save_excel_report(df, "data/report.xlsx")
-
-
-if __name__ == "__main__":
-    main()
+@app.get("/report/weekday")
+async def report_weekday():
+    df = load_data()  # Загрузка из Excel
+    return weekday_report(df)
