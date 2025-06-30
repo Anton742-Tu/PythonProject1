@@ -1,5 +1,4 @@
 import pandas as pd
-from datetime import datetime
 
 
 def filter_data_by_month(df: pd.DataFrame, target_date: str) -> pd.DataFrame:
