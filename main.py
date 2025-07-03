@@ -1,4 +1,4 @@
-import logging
+import logging.config
 from typing import Optional, Literal
 
 import pandas as pd
@@ -11,20 +11,22 @@ from src.services import (
     analyze_cashback_categories,
     investment_bank,
 )
+from src.views import generate_home_page_data, generate_events_page_data
 from src.utils import setup_logging, load_config
+
+logging.config.fileConfig("logging.conf")
+logger = logging.getLogger("myapp")
 
 
 def main() -> None:
     setup_logging()
     load_config()
-
-
-from src.views import generate_home_page_data, generate_events_page_data
+    logger.info("Приложение запущено")
 
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-logger = logging.getLogger(__name__)
+# logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Transaction Analyzer API", description="API для анализа банковских транзакций", version="1.0.0")
 

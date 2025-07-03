@@ -3,7 +3,7 @@ import logging
 import pandas as pd
 from datetime import datetime, timedelta
 from functools import wraps
-from typing import Callable, Optional, Union
+from typing import Callable, Optional
 
 logger = logging.getLogger(__name__)
 

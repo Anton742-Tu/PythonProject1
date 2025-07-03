@@ -393,6 +393,16 @@ colors = ["colorama"]
 plugins = ["setuptools"]
 
 [[package]]
+name = "loggers"
+version = "0.1.4"
+description = "Usefull wrapper methods for logging native package"
+optional = false
+python-versions = "*"
+files = [
+    {file = "loggers-0.1.4.tar.gz", hash = "sha256:88ce94790e6d71d38c70dc9132ea90277d76f65ca1be17b9b4ef87ef263c8165"},
+]
+
+[[package]]
 name = "mccabe"
 version = "0.7.0"
 description = "McCabe checker, plugin for flake8"
@@ -401,6 +411,16 @@ python-versions = ">=3.6"
 files = [
     {file = "mccabe-0.7.0-py2.py3-none-any.whl", hash = "sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e"},
     {file = "mccabe-0.7.0.tar.gz", hash = "sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325"},
+]
+
+[[package]]
+name = "myapp"
+version = "0.1dev"
+description = "test"
+optional = false
+python-versions = "*"
+files = [
+    {file = "myapp-0.1dev.tar.gz", hash = "sha256:33eef8095fb513ef70700bca462d315942136419745bf5a945ab35ba774ff689"},
 ]
 
 [[package]]
@@ -1135,4 +1155,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "f816c31f43d9ddf0e9aec492ecb3e3754d92e330417215b0b4b3e6ab73dc7faf"
+content-hash = "0c6fc3bbce3729d8dda3248e48e94a40e3ee4826a5b7cc3d4e31e54f94fa35df"
